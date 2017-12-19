@@ -11,12 +11,22 @@ public class TestController {
     @Autowired
     private TestBean testBean;
 
+    @Autowired
+    private TestConstantBean testConstantBean;
+
     @Value("${test.constant}")
     private String testConstant;
+    @Value("${random.uuid}")
+    private String uuid;
+    @Value("${random.value}")
+    private String value;
 
     @RequestMapping("/")
     public String index(){
         System.out.println(testBean.getName());
+        System.out.println(testConstantBean.getA());
+        System.out.println(uuid);
+        System.out.println(value);
 
         return "Hello Boot" + testBean.getWord();
     }
