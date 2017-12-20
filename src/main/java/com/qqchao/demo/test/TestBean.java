@@ -1,4 +1,4 @@
-package com.qqchao.demo;
+package com.qqchao.demo.test;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;

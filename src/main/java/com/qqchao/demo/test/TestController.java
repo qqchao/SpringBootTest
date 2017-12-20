@@ -1,4 +1,4 @@
-package com.qqchao.demo;
+package com.qqchao.demo.test;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -21,10 +21,11 @@ public class TestController {
     @Value("${random.value}")
     private String value;
 
-    @RequestMapping("/")
+    @RequestMapping("/test")
     public String index(){
         System.out.println(testBean.getName());
         System.out.println(testConstantBean.getA());
+        System.out.println(testConstantBean.getName());
         System.out.println(uuid);
         System.out.println(value);
 
