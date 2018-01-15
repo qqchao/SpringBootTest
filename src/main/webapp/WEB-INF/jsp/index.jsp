@@ -37,7 +37,7 @@
 </head><body style="background-image: none;">
 <div class="body_wrap">
     <div class="container">
-        <div class="alert alert-success text-center" role="alert">Sptring Boot学习资源大奉送，爱我就关注嘟嘟公众号：嘟爷java超神学堂</div>
+        <div class="alert alert-success text-center" role="alert">hello  as  Spring Boot学习资源大奉送，爱我就关注嘟嘟公众号：嘟爷java超神学堂</div>
         <table class="table table-striped table-bordered">
             <tr>
                 <td>作者</td>
